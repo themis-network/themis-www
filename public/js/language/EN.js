@@ -1,11 +1,11 @@
 const EN = {
     //header部分
-    nav_home: "HomePage",
+    nav_home: "Home",
     nav_team: "Team",
     nav_language: "中文版",
     nav_Whitepaper: "Whitepaper",
     change_to_lang: "/?lang=CN",
-    nav_whitepaper_url: "https://static-cdn.oxchains.com/themis-www/public/Themis_Whitepaper_CN.pdf",
+    nav_whitepaper_url: "https://static-cdn.oxchains.com/themis-www/public/Themis_Whitepaper_EN.pdf",
     nav_whitepaper_url2:"https://static-cdn.oxchains.com/themis-www/public/Themis_Whitepaper_EN.pdf",
     nav_whitepaper_url3:"https://static-cdn.oxchains.com/themis-www/public/Themis_Whitepaper_JP.pdf",
     nav_whitepaper_url4:"https://static-cdn.oxchains.com/themis-www/public/Themis_Whitepaper_KR.pdf",
@@ -75,6 +75,14 @@ const EN = {
     //THEMIS的机构投资者
     investor_title: "Institutional Investor",
 
+    news_title:"Press",
+    news_section1_title:"Decentralized 'Paypal': THEMIS utilizes blockchain to achieve decentralized escrow service",
+    news_section1_content:"“THEMIS” is positioned on the decentralized 'Paypal'. In December 2016, we started the design of exchange protocol, starting from escrow service, and to connect the buyers and sellers who use cryptocurrencies",
+    news_section1_time:"2018.1.11",
+    news_section2_title:"Decentralized 'Paypal'——The No.1 Escrow Service Public Chain for Cryptocurrencies",
+    news_section2_content:"Themis fills the gap in the trusted escrow service infrastructure  of cryptocurrencies and lays a solid foundation for the commercialization of cryptocurrencies. As the first  fair exchange protocol based on group escrow service , Themis also bring unlimited space  for future application development of cryptocurrencies.",
+    news_section2_time:"2018.1.12",
+
     //THEMIS的项目说明
     crowd_funding_title:"Project Instruction",
     crowd_funding_title_tip:"Before using the Website Services and participating in any of our pre-sale activities, please be sure to read and thoroughly understand the legal terms and conditions. The terms and conditions set forth in this Legal Notice apply to all natural, legal persons and organizations that access and use the Site. Your use of the Website will be considered as an endorsement of the entire contents of the Legal Terms and Conditions when you elect to use the Website Services and participate in any of the Activities.",
@@ -115,8 +123,15 @@ const EN = {
     ourteam_section3_desc: "Consultant, Bain & Company, National Sales Director, Beeone.Robert is the sales director of Beeone, British, and he has extensive experience in Retail & Consumer Products. He is a consultant of Bain & Company, he is responsible for driving analytics and stakeholder management on projects across category management, commercial excellence, sourcing strategy and manufacturing network optimization. Robert has extensive project management experience across multiple client functions, including designing & leading workshops to drive informed decision-making, and he also has experience in digital transformation developing next generation tools & capabilities. Through projects in India, Hong Kong & China, he is aiming at seeking opportunities and challenges in new markets.",
     ourteam_section4_name: "Chen Zhong",
     ourteam_section4_desc: "Professor, Peking University,Prof. Chen is the former Head of Software and Microelectronics Department, Peking University (2002-2010), Head of PAFIRC, Head of Information Security Lab of Peking University. Executive Director of CCF, Deputy Head of ISCCF, Commissioner of CCF TCCOMM.",
-    ourteam_section5_name: "Jack Lv",
-    ourteam_section5_desc:"Co-Founder, Factom.Founder, Wanchain.Founder, WangluTech,Jack is and experienced entrepreneur and expert in blockchain industry, he is the founder of Wanchain. Obtained his degrees in Peking University and Ohio State University, and he had rich business experience in China, America, and Europe in his early years. Entered into blockchain area since 2012, and then co-founded a famous program called Factom, and was known by pubic since he was reported in the cover report “trusted machine” by “The Economist”. He founded Wanglutech in 2016 and focused on driving the technology of blockchain into a wider applicable range.",
+    ourteam_section5_name: "Yu Shui",
+    ourteam_section5_desc:"Co-founder of digital wallet Kcash,Angel investor and consultant for Blockchain project.Former He Jun Consulting partner, and founding partner of Beijing Hui Yuan Consulting.7 years consulting management experience, provided strategic planning, business model design, organizational change and other services for a number of A-share listed companies.",
+
+    // ourteam_section5_name: "Jack Lv",
+    // ourteam_section5_desc:"Co-Founder, Factom.Founder, Wanchain.Founder, WangluTech,Jack is and experienced entrepreneur and expert in blockchain industry, he is the founder of Wanchain. Obtained his degrees in Peking University and Ohio State University, and he had rich business experience in China, America, and Europe in his early years. Entered into blockchain area since 2012, and then co-founded a famous program called Factom, and was known by pubic since he was reported in the cover report “trusted machine” by “The Economist”. He founded Wanglutech in 2016 and focused on driving the technology of blockchain into a wider applicable range.",
+
+
+    //THEMIS合作伙伴
+    partners_title: "Themis Partners",
 
     //footer部分
     footer_title1:"Official Wechat",

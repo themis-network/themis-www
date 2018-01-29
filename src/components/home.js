@@ -6,6 +6,7 @@ import Application from './application';
 import Partner from './partner';
 import  Advantage from './advantage'
 import Ourteams from "./ourteams";
+import News from './news';
 import Circuit from './circuit'
 import Investor from './investor';
 import ProjectDescription from './project_description';
@@ -29,7 +30,8 @@ class Home extends Component{
                 {/*<Advantage/>*/}
                 <Circuit/>
                 <Investor/>
-                <ProjectDescription/>
+                {/*<ProjectDescription/>*/}
+                <News/>
                 <Ourteams/>
                 <Consultant/>
             </section>

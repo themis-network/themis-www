@@ -5,9 +5,9 @@ function getQueryString(name) {
 }
 
 export function getLocalValue(key) {
-    let lang = getQueryString("lang") || "CN";
+    let lang = getQueryString("lang") || "EN";
     if (lang === "EN") {
-        document.title='Themis: The Decentralized "Alipay" in the Digital Currency World.'
+        document.title='Themis: The Decentralized "Alipay" in the Digital Currency World.';
         return window.EN[key];
     }
     else {

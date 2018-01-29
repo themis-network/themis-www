@@ -60,6 +60,7 @@ class ProjectDescription extends Component{
                                             </tbody>
                                         </table>
                                     </div>
+                                    <div className="hidden-lg text-center g-pt-30 ">滑动查看更多<img className="g-pl-10" style={{"width":"25px", "verticalAlign": "sub"}} src={`${ROOT_URL}/public/img/slider.png`} alt=""/></div>
                                 </div>
                             </div>
                         </div>

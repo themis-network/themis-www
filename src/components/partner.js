@@ -33,15 +33,39 @@ class Partner extends Component{
             </div>
         )
     }
+    renderrow(src,index){
+        return(
+            <div className="col-sm-12 col-lg-3 g-py-20 text-center" key={index}>
+                <img style={{margin:"0 auto","height":"45px"}} src={src.src} alt={index}/>
+            </div>
+        )
+    }
     render(){
         const listinfo = [
             {href:"https://chieftin.org/",src:`${ROOT_URL}/public/img/partner1.png`,p:`${getLocalValue("cooperative_partner1_content")}`},
             // {href:"https://www.wanchain.org/",src:`${ROOT_URL}/public/img/partner2.png`,p:`${getLocalValue("cooperative_partner2_content")}`},
             {href:"http://oraclechain.io/",src:`${ROOT_URL}/public/img/partner3.png`,p:`${getLocalValue("cooperative_partner3_content")}`},
-        ]
+        ];
+        const imgLinks = [
+            {
+                src: `${ROOT_URL}public/img/investor1.png`
+            },
+            {
+                src: `${ROOT_URL}public/img/investor2.png`
+            },
+            {
+                src: `${ROOT_URL}public/img/investor3.png`
+            },
+            {
+                src: `${ROOT_URL}public/img/investor4.png`
+            },
+            {
+                src: `${ROOT_URL}public/img/investor5.png`
+            }
+        ];
         return(
             <section id="streamer" className="dzsparallaxer auto-init height-is-based-on-content use-loading g-bg-cover ">
-                <div className="divimage dzsparallaxer--target w-100" style={{height: '140%', background: `url(${ROOT_URL}public/img/partnerbg.gif) center` }}></div>
+                <div className="divimage dzsparallaxer--target w-100" style={{height: '140%', background: `url(${ROOT_URL}public/img/partnerbg.gif) center`, backgroundSize:"cover" }}></div>
                 <div className="container g-z-index-1">
                     <div className="row justify-content-center">
                         <div className="col-lg-12">
@@ -57,6 +81,16 @@ class Partner extends Component{
                         </div>
                     </div>
                 </div>
+
+                <div className="container">
+                    <div className="row g-pb-60">
+                        {imgLinks.map(this.renderrow)}
+                        <div className="col-sm-12 col-lg-3 g-py-20 text-center">
+                            <img style={{margin:"0 auto","height":"45px",width:"175px"}} src={`${ROOT_URL}/public/img/investor6.png`} alt="6"/>
+                        </div>
+                    </div>
+                </div>
+
             </section>
         )
     }

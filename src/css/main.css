@@ -381,7 +381,7 @@
 /*themis的使命*/
 #mission
 {
-    background:url("../../public/img/project-description.png") no-repeat center;
+    background:url("../../public/img/矢量智能对象.png") no-repeat center;
     background-size: cover!important;
     color: #606060 !important;
     padding-bottom: 100px;
@@ -417,4 +417,15 @@
 }
 .description-table .table td,.description-table .table th{
     padding: .75rem 0;
+}
+@media (min-width: 992px){
+    .hidden-lg{
+        display: none;
+    }
+}
+.nl-color-yellow{
+    color: #f0a401 !important;
+}
+.nl-color-yellow--hover:hover{
+    color: #f0a401 !important;
 }
