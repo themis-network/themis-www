@@ -11,7 +11,7 @@ class Investor extends Component{
     }
     render(){
         return(
-            <section className="investor g-pt-100 g-pb-100" style={{"background":"#fff"}}>
+            <section className="investor g-pt-100 g-pb-100" style={{"background":"#f5f5f5"}}>
                 <div className="container text-center g-max-width-75" style={{textAlign:'center'}}>
                     <h2 className="g-font-weight-400 nl-home-title g-font-size-24">{getLocalValue("investor_title")}</h2>
                     <div className="nl-underline g-mb-15">
