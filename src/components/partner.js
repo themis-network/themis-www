@@ -54,7 +54,7 @@ class Partner extends Component{
                 src: `${ROOT_URL}public/img/investor2.png`
             },
             {
-                src: `${ROOT_URL}public/img/investor3.png`
+                src: `${ROOT_URL}public/img/investor3_1.png`
             },
             {
                 src: `${ROOT_URL}public/img/investor4.png`
