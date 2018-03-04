@@ -1,16 +1,14 @@
 const CN = {
-
-
     //header部分
     nav_home: "首页",
     nav_team: "团队",
     nav_language: "EN",
     nav_Whitepaper: "白皮书",
     change_to_lang: "/?lang=EN",
-    nav_whitepaper_url: "https://static-cdn.oxchains.com/themis-www/public/Themis_Whitepaper_CN.pdf",
-    nav_whitepaper_url2:"https://static-cdn.oxchains.com/themis-www/public/Themis_Whitepaper_EN.pdf",
-    nav_whitepaper_url3:"https://static-cdn.oxchains.com/themis-www/public/Themis_Whitepaper_JP.pdf",
-    nav_whitepaper_url4:"https://static-cdn.oxchains.com/themis-www/public/Themis_Whitepaper_KR.pdf",
+    nav_whitepaper_url: "https://themis.network/public/Themis_Whitepaper_CN.pdf",
+    nav_whitepaper_url2:"https://themis.network/public/Themis_Whitepaper_EN.pdf",
+    nav_whitepaper_url3:"https://themis.network/public/Themis_Whitepaper_JP.pdf",
+    nav_whitepaper_url4:"https://themis.network/public/Themis_Whitepaper_KR.pdf",
     nav_github_url: "https://github.com/themisnetwork",
     law_to_lang: "?lang=CN",
 
@@ -66,11 +64,11 @@ const CN = {
     //THEMIS的线路图
     circuit_title: "THEMIS的线路图",
     circuit_img: "/public/img/circuit.jpg",
-    ciruit_route1:"提出Themis概念，进行市场调研和商业创意，开展去中心化公平交换协议设计",
-    ciruit_route2:"发布Themis白皮书，Themis网站上线",
-    ciruit_route3:"完成Themis区块链设计，完成基于群托管协议和匿名声誉机制开发",
-    ciruit_route4:"Themis 1.0上线，完成Themis钱包1.0开发，支持场外数字货币交易兑换和点对点托管支付",
-    ciruit_route5:"Themis 2.0上线，提升Themis性能，支持高并发验签的数字签名，完成Themis钱包2.0开发",
+    ciruit_route1:"开展基于群托管机制的公平交换协议设计",
+    ciruit_route2:"完成具有完备功能的最小化可行版本（MVP）",
+    ciruit_route3:"去中心化托管服务内测，OTC交易平台试运行",
+    ciruit_route4:"Themis区块链测试网络发布",
+    ciruit_route5:"Themis主网上线",
 
     //THEMIS的机构投资者
     investor_title: "THEMIS的机构投资者",
@@ -106,18 +104,71 @@ const CN = {
     crowd_funding_section1_item8:"硬顶等值3600万美元ETH",
 
     //THEMIS的团队
-    team_title: "THEMIS的团队",
-    team_section1_desc: "Danish是UCL伦敦大学区块链技术中心的资深专家，是最早使用ERC23协议为区块链项目编写智能代币发的开创者之一。曾带领UCL TechSoc团队，致力于推广使用面部认证系统来增强简化大学进出安全性的方式。他曾在信息科技服务公司 Atos进行前沿研究项目研究。Hadoop和 Weka的在线大数据检索和存储服务的推广大使。",
-    team_section2_desc: "Jennifer是Agility Sciences Limited的首席市场官以及中英区块链协会的联合创始人。她拥有伦敦商学院的商科学位，并在毕业后致力于分布式技术带来的潜在的行业革命。她曾在波士顿咨询公司就职，负责私募和风险投资基金方向。 ",
-    team_section3_desc: "Takuya毕业于英国伦敦大学皇家霍洛威学院，目前在Unicoin担任增长黑客，在市场营销，工程研发，数据分析领域均具有丰富的经验。掌握SEM推广，内容营销，程序测试，数学建模等多种技能，并参与多个区块链项目的研发实施与运营推广，是一名在区块链和金融创新领域的复合型专家。",
-    team_section4_desc:"Yuet毕业于伦敦政治经济学院，获得商科硕士学位。Yuet热衷于颠覆性金融技术，深入参与加密货币的研究和并为多个区块链项目提供咨询。中英区块链协会（CUKBA）联合创始人之一，与英国领先的金融科技企业家有密切联系。前英国普华永道银行及资本市场团队中的一员，在传统金融服务方面拥有坚固的知识和丰富的经验，参与多个项目的尽职调查和并购工作。",
-    team_section5_desc:"Amir 毕业于英国伦敦大学皇家霍洛威学院，在加密数字货币领域拥有多年实际操作经验，他深入了解加密空间和去中心化系统知识，活跃于多个开源社区，同时在市场调查和商业案例开发方面有丰富经验。他有优秀的沟通能力，掌握三种语言（俄语，英语和哈萨克语），并正在学习汉语。",
-    team_section6_desc: "James是UNIcoin公司首席技术官和联合创始人，也是App Society的联合创始人和联合主席，毕业于伦敦大学皇家霍洛威学院计算机专业。James拥有深厚的Web开发人员和计算机系统管理工作经验。他曾在思科系统公司担任技术工程师，并负责向客户经理提供商业见解和产品主题建议。",
-    team_section7_desc: "Hubertas就读于英国伦敦大学皇家霍洛威学院金融管理专业，是皇家霍洛威学院投资与金融社副社长，目前在UNIcoin担任财务总监一职。UNIcoin是致力于学生社群分享经济的区块链技术和数字货币科技创业公司。",
-    //THEMIS顾问团队
-    ourteam_title: "THEMIS顾问团队",
+    team_title: "THEMIS团队成员",
+
+    team_section1_name: "Hongwei Meng",
+    team_section1_place: "联合创始人/CEO",
+    team_section1_desc: "北京大学理学博士，高级工程师。长期从事大型信息系统顶层设计，拥有大型系统研制和管理经验。未来互联网体系结构专家、密码学和区块链专家，对区块链架构、共识算法、智能合约有深刻理解。负责Themis总体架构和网络协议的设计。",
+
+    team_section2_name: "Alex Khawaja ",
+    team_section2_place: "联合创始人/CMO",
+    team_section2_desc: "毕业于利兹大学，金融学硕士，Alex拥有皇家空军军官的军事背景，并拥有十年的金融服务经验。亚历克斯在纽约梅隆银行股票衍生品公司开始他的职业生涯。他与最大的公司机构的高级管理人员以及V.C.密切合作。和P.E.在海湾地区开发中东最大的投资者关系协会，旨在推广行业最佳实践，亚历克斯现在在普华永道工作。通过广泛的网络和多元化的工作背景，Alex在全球资本市场，创新和战略以及业务发展方面拥有广泛的专业知识和见解。他对颠覆性技术充满热情，将他在全球客户关系和金融服务方面的强大背景应用于区块链部门。Alex负责Themis的全球化商业和战略布局。",
+
+    team_section3_name: "Ennan Zhai",
+    team_section3_place: "研发总监",
+    team_section3_desc: "耶鲁大学博士、博士后，耶鲁大学副研究员。主要研究方向为声誉系统和大规模分布式系统，研究重点是利用分布式系统，编程语言和密码学等领域的技术构建安全可靠的计算机系统。目前工作包括使用高效、准确和深入的审计技术来提高大型分布式系统的可靠性和安全性，以及PriFi：第一个低延迟和抗跟踪的匿名通信系统。他的博士论文工作着重于构建云计算的可靠性审计系统，该系统可以主动检测可能导致云规模相关故障的深层原因和异常依赖关系。负责Themis密码学算法和声誉系统研发。",
+
+    team_section4_name: "Yuet Ning Chau",
+    team_section4_place: "财务总监",
+    team_section4_desc: "Yuet毕业于伦敦政治经济学院，获得商业硕士学位。他热衷于颠覆性金融科技，并深入参与了加密货币研究。Yuet是中英区块链协会的联合创始人，为一系列系统转型和战略执行项目提供咨询服务。Yuet与英国领先的金融科技企业家和加速器保持着密切的关系。Yuet目前在普华永道英国作为银行和资本市场团队的成员，在传统金融服务和突破性技术创新方面拥有具体的知识和经验。负责Themis预算体系建立和财务指标分析。",
+
+    team_section5_name: "Wei Xin",
+    team_section5_place: "安全顾问",
+    team_section5_desc:"北京大学理学博士，中国信息安全测评中心高级工程师。专注安全漏洞检测和密码算法安全性分析，有丰富的区块链自动化漏洞检测经验。负责Themis系统及智能合约的安全检测。",
+
+    team_section6_name: "Takuya Koide",
+    team_section6_place: "市场经理",
+    team_section6_desc:"Takuya就读于伦敦大学皇家霍洛威学院，现任Unicoin担任管理员。 他在市场营销，程序开发和数据分析领域拥有丰富的经验。 他掌握搜索引擎优化，内容营销，程序测试和数学建模等方面的技能，曾参与多个区块链项目。 Takuya是金融科技和区块链相关领域的复合型人才。负责Themis市场推广和品牌建设。",
+
+    team_section7_name: "Amir Marat",
+    team_section7_place: "运营经理",
+    team_section7_desc:"Amir就读于伦敦皇家霍洛威大学，多年来一直从事加密货币领域的研究。他对密码学和分布式系统有着深刻的见解，活跃于许多开放社区中。他在市场研究和业务发展方面也有丰富的经验。他不断发展沟通技巧，掌握3种语言(俄语、英语和哈萨克语)，目前正在学习中文。负责Themis社区及内容运营。",
+
+    team_section8_name: "James Johnson",
+    team_section8_place: "产品经理",
+    team_section8_desc:"在伦敦大学皇家霍洛威学习计算机科学理学士课程的同时，James也是App Society的联合创始人和联合主席，以及UNIcoin Private Limited Company的首席技术官和联合创始人，此外还具有自由网站开发人员和系统管理员的丰富经验。 他曾在思科系统公司工作过，其职能是为技术销售工程师向客户经理提供商业见解和产品主张建议。负责Themis产品设计和需求分析。",
+
+    team_section9_name: "Evan Bian",
+    team_section9_place: "项目经理",
+    team_section9_desc:"毕业于哈尔滨工业大学电子信息工程专业。资深IT系统工程师，资深通信工程师。曾在Ericsson运营支撑部门工作，负责全球多家运营商的网络管理系统。后投身区块链行业，参与过多个联盟链产品的方案制定工作。具有丰富的通信系统设计、解决方案制定、运营指标分析的经验。负责Themis项目实施和质量管理。",
+
+    team_section10_name: "Hubertas Trinkunas",
+    team_section10_place: "商务经理",
+    team_section10_desc:"Hubertas Trinkunas掌握多国语言。目前是他在伦敦皇家霍洛威大学攻读金融学士学位的最后一年。他担任皇家霍洛威(Royal Holloway)的投资与金融社副社长，皇家霍洛威学院(Royal Holloway) App Society财务经理，目前他还在UNIcoin担任财务总监一职。UNIcoin是一家为学生分享经济的科技初创企业，包括区块链技术和密码货币。Hubertas将在伦敦国王学院(Kings College London)开始他的硕士生涯，以获得更多的金融知识和经验。负责Themis商业拓展。",
+
+    team_section11_name: "Emma Zhu",
+    team_section11_place: "风控经理",
+    team_section11_desc:"美国约翰霍普金斯大学企业风险管理学硕士，在校期间多次参与案例分析，以及为学校专利制定推广方案。她具有丰富的分析和咨询经验。现任资深区块链分析师，参与多个联盟链产品方案定制，以及金融产品设计经验，负责Themis产品风险控制和流程优化。",
+
+
+    // team_title: "THEMIS的团队",
+    // team_section1_desc: "Danish是UCL伦敦大学区块链技术中心的资深专家，是最早使用ERC23协议为区块链项目编写智能代币发的开创者之一。曾带领UCL TechSoc团队，致力于推广使用面部认证系统来增强简化大学进出安全性的方式。他曾在信息科技服务公司 Atos进行前沿研究项目研究。Hadoop和 Weka的在线大数据检索和存储服务的推广大使。",
+    // team_section2_desc: "Jennifer是Agility Sciences Limited的首席市场官以及中英区块链协会的联合创始人。她拥有伦敦商学院的商科学位，并在毕业后致力于分布式技术带来的潜在的行业革命。她曾在波士顿咨询公司就职，负责私募和风险投资基金方向。 ",
+    // team_section3_desc: "Takuya毕业于英国伦敦大学皇家霍洛威学院，目前在Unicoin担任增长黑客，在市场营销，工程研发，数据分析领域均具有丰富的经验。掌握SEM推广，内容营销，程序测试，数学建模等多种技能，并参与多个区块链项目的研发实施与运营推广，是一名在区块链和金融创新领域的复合型专家。",
+    // team_section4_desc:"Yuet毕业于伦敦政治经济学院，获得商科硕士学位。Yuet热衷于颠覆性金融技术，深入参与加密货币的研究和并为多个区块链项目提供咨询。中英区块链协会（CUKBA）联合创始人之一，与英国领先的金融科技企业家有密切联系。前英国普华永道银行及资本市场团队中的一员，在传统金融服务方面拥有坚固的知识和丰富的经验，参与多个项目的尽职调查和并购工作。",
+    // team_section5_desc:"Amir 毕业于英国伦敦大学皇家霍洛威学院，在加密数字货币领域拥有多年实际操作经验，他深入了解加密空间和去中心化系统知识，活跃于多个开源社区，同时在市场调查和商业案例开发方面有丰富经验。他有优秀的沟通能力，掌握三种语言（俄语，英语和哈萨克语），并正在学习汉语。",
+    // team_section6_desc: "James是UNIcoin公司首席技术官和联合创始人，也是App Society的联合创始人和联合主席，毕业于伦敦大学皇家霍洛威学院计算机专业。James拥有深厚的Web开发人员和计算机系统管理工作经验。他曾在思科系统公司担任技术工程师，并负责向客户经理提供商业见解和产品主题建议。",
+    // team_section7_desc: "Hubertas就读于英国伦敦大学皇家霍洛威学院金融管理专业，是皇家霍洛威学院投资与金融社副社长，目前在UNIcoin担任财务总监一职。UNIcoin是致力于学生社群分享经济的区块链技术和数字货币科技创业公司。",
+    // team_section8_desc: "毕业于哈尔滨工业大学电子信息工程专业。资深IT系统工程师，资深通信工程师。曾在Ericsson运营支撑部门工作，负责全球多家运营商的网络管理系统。后投身区块链行业，参与过多个联盟链产品的方案制定工作。具有丰富的通信系统设计、解决方案制定、运营指标分析的经验。",
+    // team_section9_desc: "耶鲁大学博士、博士后，耶鲁大学副研究员。主要研究方向为声誉系统和大规模分布式系统，研究重点是利用分布式系统，编程语言和密码学等领域的技术构建安全可靠的计算机系统。",
+    // team_section10_desc: "北京大学理学博士，中国信息安全测评中心高级工程师。专注安全漏洞检测和密码算法安全性分析，有丰富的区块链自动化漏洞检测经验。",
+    // team_section11_desc: "美国约翰霍普金斯大学企业风险管理学硕士，在校期间多次参与案例分析，以及为学校专利制定推广方案。她具有丰富的分析和咨询经验。现任资深区块链分析师，参与多个联盟链产品方案定制，以及金融产品设计经验。",
+    // team_section12_desc: "北京大学理学博士，高级工程师。长期从事大型信息系统顶层设计，拥有大型系统研制和管理经验。未来互联网体系结构专家、密码学和区块链专家，对区块链架构、共识算法、智能合约有深刻理解。",
+
+    // THEMIS顾问团队
+    ourteam_title:"THEMIS顾问团队",
     ourteam_section1_name: "Donald Lawrence",
-    ourteam_section1_desc: "伦敦大学学院客座教授，战略咨询公司创世纪公司合伙人，伦敦大学学院教授，区块链技术中心项目负责，金融计算研究中心项目负责，阿兰图灵大数据研究中心项目负责，曾在花旗集团、美国银行和美国运通等均担任过总经理以上级别职位，在UCL期间，负责对接与央行，投行，对冲基金，清算中心和科技企业的项目研究和开发等。",
+    ourteam_section1_desc: "伦敦大学学院客座教授，战略咨询公司创世纪公司合伙人，区块链技术中心项目负责，金融计算研究中心项目负责，阿兰图灵大数据研究中心项目负责，曾在花旗集团、美国银行和美国运通等均担任过总经理以上级别职位，在UCL期间，负责对接与央行，投行，对冲基金，清算中心和科技企业的项目研究和开发等。",
     ourteam_section2_name: "Daniele Bernardi",
     ourteam_section2_desc: "Diaman SCF的创办人兼首席执行官，投资者杂志（INVESTORS’ Magazine Italia）主席。致力于开发高回报的投资战略，是一位不断寻求创新的企业家。他的研究面向数学模型的开发，简化了投资者和家族企业的决策过程，以减少风险。",
     ourteam_section3_name: "Robert Ferguson",
@@ -128,6 +179,22 @@ const CN = {
     ourteam_section5_desc:"数字钱包Kcash联合创始人，区块链项目天使投资人、顾问。曾任和君咨询业务合伙人、北京惠远咨询创始合伙人之一。7年管理咨询经验，为多家A股上市公司提供战略规划及商业模式设计、组织变革等服务。",
     // ourteam_section5_name: "吕旭军",
     // ourteam_section5_desc:"网录科技创始人，吕旭军是区块链资深创业者及技术专家，万维链创始人。先后获得北京大学、俄亥俄州立大学多个学位，早年在中国、美国、欧洲均有丰富的商业经历。2012年进入区块链领域，2014年联合创立著名区块链项目Factom，被《经济学人》杂志以封面报道“信任的机器”引入公众的视野。2016年创立区块链商业应用企业网录科技，致力于推动区块链技术的更大范围应用。",
+    ourteam_section6_name: "Gong Hui",
+    ourteam_section6_desc:"伦敦大学学院金融数学博士，伦敦大学学院区块链研究中心研究员，中英区块链协会秘书长。研究项目包括联合国食品署数字身份计划、ICO监管及挑战等，拥有丰富的数字货币金融产品设计经验。",
+    ourteam_section7_name: "关志",
+    ourteam_section7_desc:"北京大学理学博士，北京大学副研究员，密码学和安全协议专家，著名国密算法开源项目GmSSL的主要开发者和社区领袖，培养了北大最早的三名区块链方向硕士研究生。",
+    ourteam_section8_name: "辛伟",
+    ourteam_section8_desc:"北京大学理学博士，中国信息安全测评中心高级工程师。专注安全漏洞检测和密码算法安全性分析，有丰富的区块链自动化漏洞检测经验。",
+    ourteam_section9_name: "孙志勇",
+    ourteam_section9_desc:"北京大学物理学学士、北京大学金融学硕士，中国国资国企产业创新战略联盟副理事长、金峰资本董事长、沃医妇产名医集团联合创始人执行总裁、北京神控科技有限公司副董事长、美国远景投资管理公司管理合伙人。",
+    ourteam_section10_name: "唐聪",
+    ourteam_section10_desc:"北京大学理学博士，纽约大学访问学者。原北信源产品总监，区块链和分布式账本技术专家，网络和信息安全领域专家。有丰富的区块链架构设计与系统开发落地经验。主持研发多个行业区块链产品和应用。",
+    ourteam_section11_name: "Han Kao",
+    ourteam_section11_desc:"Han Kao在纽约成长，本科毕业于哥伦比亚大学经济学专业，他是独立ICO评级和加密货币媒体公司Cryptobriefing.com的创始人和CEO。作为一名连续创业者，他在过去的15年里创立并成功退出了多家科技和媒体企业。同时他还是包括Wanchain和Jet8在内的多家区块链公司的早期投资人和顾问。",
+    ourteam_section12_name:"Danish A.Alvi",
+    ourteam_section12_desc:"Danish是UCL伦敦大学区块链技术中心的资深专家，是最早使用ERC23协议为区块链项目编写智能代币发的开创者之一。此前，他带领UCL TechSoc团队，致力于推广使用面部认证系统来增强简化大学进出安全性的方式。他曾在信息科技服务公司 Atos进行前沿研究项目研究。Danish是推广使用 Hadoop和 Weka的在线大数据检索和存储服务的推广大使，并实现了开发环境的虚拟机自动配置，前端服务器的虚拟机自动配置，以及前端服务CKAN / Drupal集成和数据审计。",
+    ourteam_section13_name:"Genevieve Leveille",
+    ourteam_section13_desc:"Genevieve是金融科技公司0TenTic8的创始人，旨在通过实现金融服务的民主化和提高供应链的透明度来赋予农业生产者权力。Genevieve担任techUK分布式账本技术（DLT）工作组的副主席。DLT工作组将为所有与区块链和DLT有关的techUK活动提供战略指导。",
 
     //THEMIS合作伙伴
     partners_title: "THEMIS的合作伙伴",
@@ -198,6 +265,21 @@ const CN = {
     digital_currency2_content:"数字货币场外交易或在线购物中，面临公平交换难题:先付款?先发货?   支付和交付无法同时达成，需要托管服务保证资金安全。",
     digital_currency3_content:"依赖单个可信第三方被普遍任务存在安全风险，比如著名的Mt.Gox遭受黑客攻击，导致时值4.6亿美元的比特币被盗。",
 
+    //基石
+    cornerstone_title: "Themis的基石投资者",
+    cornerstone_section1_p:"分布式资本是中国第一家也是最大的专注于区块链项目投资的风险基金",
+    cornerstone_section1_name: "沈波",
+    cornerstone_section1_desc1: "创始合伙人",
+    cornerstone_section1_desc2:"分布式资本",
+    cornerstone_section1_desc3:"Blockasset Fund",
+
+    // 代币分配
+    distribution_title: "代币分配计划",
+    distribution_name1: "代币分配",
+    distribution_img1: "/public/img/distribution_1.1.png",
+    distribution_name2: "资金分配",
+    distribution_img2: "/public/img/distribution_1.2.png",
+    distribution_footer: "发行总量：10 亿枚",
 
 };
 window.CN = CN;

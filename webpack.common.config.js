@@ -17,7 +17,7 @@ const static = [
     "./public/js/vendor/revolution-slider/revolution/js/extensions/revolution.extension.slideanims.min.js",
     "./public/js/language/CN.js",
     "./public/js/language/EN.js"
-]
+];
 module.exports = {
     entry: {
         'vendor': static,
@@ -27,7 +27,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "./dist"),
         filename: "[name].[chunkhash:8].js",
-        publicPath: prod ? "https://static-cdn.oxchains.com/themis-www/" : ""
+        publicPath: prod ? "https://themis.network/" : ""
     },
     module: {
         loaders: [{

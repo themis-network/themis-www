@@ -20,14 +20,20 @@ class Consultant extends Component{
     }
     render(){
         const consultantlist = [
-            {src:`${ROOT_URL}public/img/DonaldLawrence.jpg`,name:`${getLocalValue("ourteam_section1_name")}`,info:`${getLocalValue("ourteam_section1_desc")}`},
+            {src:`${ROOT_URL}public/img/hankao.jpg`,name:`${getLocalValue("ourteam_section11_name")}`,info:`${getLocalValue("ourteam_section11_desc")}`},
             {src:`${ROOT_URL}public/img/DanieleBernardi.jpg`,name:`${getLocalValue("ourteam_section2_name")}`,info:`${getLocalValue("ourteam_section2_desc")}`},
-            {src:`${ROOT_URL}public/img/RobertFerguson.jpg`,name:`${getLocalValue("ourteam_section3_name")}`,info:`${getLocalValue("ourteam_section3_desc")}`},
+            // {src:`${ROOT_URL}public/img/RobertFerguson.jpg`,name:`${getLocalValue("ourteam_section3_name")}`,info:`${getLocalValue("ourteam_section3_desc")}`},
             {src:`${ROOT_URL}public/img/chenzhong.png`,name:`${getLocalValue("ourteam_section4_name")}`,info:`${getLocalValue("ourteam_section4_desc")}`},
-            {src:`${ROOT_URL}public/img/yushui.png`,name:`${getLocalValue("ourteam_section5_name")}`,info:`${getLocalValue("ourteam_section5_desc")}`},
+            //{src:`${ROOT_URL}public/img/yushui.png`,name:`${getLocalValue("ourteam_section5_name")}`,info:`${getLocalValue("ourteam_section5_desc")}`},
             // {src: `${ROOT_URL}public/img/lvxujun.jpg`, name: `${getLocalValue("ourteam_section5_name")}`, info: `${getLocalValue("ourteam_section5_desc")}`},
-
-        ]
+            {src:`${ROOT_URL}public/img/Gong Hui.jpg`,name:`${getLocalValue("ourteam_section6_name")}`,info:`${getLocalValue("ourteam_section6_desc")}`},
+            {src:`${ROOT_URL}public/img/guanzhi.jpg`,name:`${getLocalValue("ourteam_section7_name")}`,info:`${getLocalValue("ourteam_section7_desc")}`},
+            // {src:`${ROOT_URL}public/img/xinwei.jpg`,name:`${getLocalValue("ourteam_section8_name")}`,info:`${getLocalValue("ourteam_section8_desc")}`},
+            {src:`${ROOT_URL}public/img/sunzhiyong.jpg`,name:`${getLocalValue("ourteam_section9_name")}`,info:`${getLocalValue("ourteam_section9_desc")}`},
+            {src:`${ROOT_URL}public/img/tangcong.jpg`,name:`${getLocalValue("ourteam_section10_name")}`,info:`${getLocalValue("ourteam_section10_desc")}`},
+            // {src:`${ROOT_URL}public/img/Danish A.Alvi.png`,name:`${getLocalValue("ourteam_section12_name")}`,info:`${getLocalValue("ourteam_section12_desc")}`},
+            {src:`${ROOT_URL}public/img/Genevieve Leveille.png`,name:`${getLocalValue("ourteam_section13_name")}`,info:`${getLocalValue("ourteam_section13_desc")}`},
+        ];
         return(
             <section className="g-py-50 g-pb-100">
                 <div className="container text-center g-max-width-75" style={{textAlign:'center'}}>

@@ -5,10 +5,10 @@ const EN = {
     nav_language: "中文版",
     nav_Whitepaper: "Whitepaper",
     change_to_lang: "/?lang=CN",
-    nav_whitepaper_url: "https://static-cdn.oxchains.com/themis-www/public/Themis_Whitepaper_EN.pdf",
-    nav_whitepaper_url2:"https://static-cdn.oxchains.com/themis-www/public/Themis_Whitepaper_EN.pdf",
-    nav_whitepaper_url3:"https://static-cdn.oxchains.com/themis-www/public/Themis_Whitepaper_JP.pdf",
-    nav_whitepaper_url4:"https://static-cdn.oxchains.com/themis-www/public/Themis_Whitepaper_KR.pdf",
+    nav_whitepaper_url: "https://themis.network/public/Themis_Whitepaper_CN.pdf",
+    nav_whitepaper_url2:"https://themis.network/public/Themis_Whitepaper_EN.pdf",
+    nav_whitepaper_url3:"https://themis.network/public/Themis_Whitepaper_JP.pdf",
+    nav_whitepaper_url4:"https://themis.network/public/Themis_Whitepaper_KR.pdf",
     nav_github_url: "https://github.com/themisnetwork",
     law_to_lang: "?lang=EN",
 
@@ -57,7 +57,7 @@ const EN = {
     //THEMIS的优势
     themis_advantage_title:"Advantages",
     themis_advantage1_title:"World-Top Scientists Team",
-    themis_advantage1_content:"Team members of Themis are all from Oxford University, Yale University, Beijing University. We align with Shenzhen Chieftin Lab, and work together with the world-top scientists having sophisticated abilities of both researching and engineering on fair exchange, formal verification and other related areas. It guarantees the theory and innovation of Themis can reach the international advanced level.",
+    themis_advantage1_content:"Team members of Themis are all from Oxford University, Yale University, Peking University. We align with Shenzhen Chieftin Lab, and work together with the world-top scientists having sophisticated abilities of both researching and engineering on fair exchange, formal verification and other related areas. It guarantees the theory and innovation of Themis can reach the international advanced level.",
     themis_advantage2_title:"Firm Basis of Technology on Cryptography and Blockchain",
     themis_advantage2_content:"The backgrounds of our members are focus on areas of cryptography, network and information security and blockchain. We have rich experience in the implementation of Efficient Cryptography, Privacy Protection, Anonymous Reputation, High-speed Blockchain, Smart Contract Applications and other related areas. It guarantees the development of Themis can be smooth.",
     themis_advantage3_title:"Years of Practices on Payment Industry",
@@ -66,11 +66,11 @@ const EN = {
     //THEMIS的线路图
     circuit_title: "Roadmap",
     circuit_img: "/public/img/circuit2.png",
-    ciruit_route1:"Proposing the concept of Themis, starting market researching and business innovating. Starting the model design of decentralized fair exchange protocol.",
-    ciruit_route2:"Publishing the Whitepaper of Themis, launching Themis website.",
-    ciruit_route3:"Finishing the blockchain design of Themis, and finishing the development of group escrow protocol and anonymous reputation mechanism.",
-    ciruit_route4:"Launching Themis 1.0 version. Finishing the development of Themis Wallet 1.0, and supporting the scenarios of OTC trading and p2p escrow payment.",
-    ciruit_route5:"Launching Themis 2.0 version, improving the performance of Themis, supporting digital signature algorithm with high-concurrency verification ability, finishing the development of Themis Wallet 2.0.",
+    ciruit_route1:"started the design of fair exchange protocol based on group escrow mechanism.",
+    ciruit_route2:"finished the MVP (Minimum Viable Product) version.",
+    ciruit_route3:"internal test of decentralized escrow service, and test run of Themis OTC platform.",
+    ciruit_route4:"launch the Themischain test net.",
+    ciruit_route5:"launch the Themischain main net.",
 
     //THEMIS的机构投资者
     investor_title: "Institutional Investor",
@@ -105,13 +105,63 @@ const EN = {
 
     //THEMIS的团队
     team_title: "Team Members",
-    team_section1_desc: "Danish is a senior expert in UCL Centre for Blockchain Technologies (CBT), he is one of the first developers writing smart tokens in Solidity compliant with ERC223 protocol. He promoted an online Big Data retrieval and storage service using Hadoop and Weka. He once worked in Atos for frontier researching projects. And he led a team working on a system which uses Facial Recognition as an authentication for turnstiles to enhance security and ease entry/exit at UCLU TechSoc.",
-    team_section2_desc: "Jennifer is the CMO at Agility Sciences Limited and Co-founder of China-UK Blockchain Association. She holds a business degree from London Business School and has devoted herself to the potential industry revolution brought by distributed leger technology since graduated. She has experiences with The Boston Consulting Group, private equity and venture capital funds.",
-    team_section3_desc: "Takuya graduated from Royal Holloway, University of London ，and now he is working at Unicoin as a growth hacker. He has rich experience in the areas of marketing, program developing, and data analysis. He has skills of SEM, content marketing, programme testing and mathematical modeling, and he has involved in several blockchain projects. Takuya is a compound talent in Fintech and blockchain related areas.",
-    team_section4_desc: "Yuet graduated from London School of Economics and Political Science with Master’s degree in business. He is enthusiastic about disruptive Fin-tech，he got deeply involved in cryptocurrency researches and he has provided consulting services for many blockchain projects. He is co-founder of China-UK Blockchain Association and he keeps close touch with UK’s leading Fin-tech entrepreneurs. Former member of PwC UK banking and capital market team, and possesses concrete knowledge and experience in traditional financial services, including due diligence and merger acquisition.",
-    team_section5_desc: "Amir graduated from Royal Holloway University of London and was involved in the cryptocurrencies for years. He has a deep understanding of crypto space and decentralized systems and he is active in many open communities. He also has rich experience in market researching and business development. He continuously develops communication skills and can speak 3 languages (Russian, English and Kazakh) and he is currently learning Chinese.",
-    team_section6_desc: "Studying BSc Computer Science at Royal Holloway, University of London, James is also the Co-founder and Co-president of the App Society, as well as Chief Technology Officer and Co-founder of UNIcoin Private Limited Company, furthermore also having experience as a Freelance Web Developer and Systems Administrator. He has prior experience working in Cisco Systems, inc. as a Technical Sales Engineer in providing business insights and product proposition suggestions to Account Managers.",
-    team_section7_desc: "Hubertas Trinkunas is a multi-lingual communicator. Currently in his final year obtaining Management with Finance Bachelor’s degree at Royal Holloway University of London. Vice-president of Investment and Finance Society at Royal Holloway, Finance Manager of App Society at Royal Holloway, and currently upholding a role of Finance Director at UNIcoin, a tech start-up for student sharing economy including blockchain technology and cryptocurrency.",
+
+    team_section1_name: "Hongwei Meng",
+    team_section1_place: "Cofounder & CEO",
+    team_section1_desc: "PhD of computer science from Peking University, senior engineer. He has long been engaged in the information system architecture design of smart city, with plenty system development and management experience. As an expert in future Internet architecture and cryptography, he also has a deep understanding of blockchain structure, consensus algorithms, and smart contracts. He is responsible for the design of total structure and network protocols of Themis.",
+
+    team_section2_name: "Alex Khawaja ",
+    team_section2_place: "Cofounder & CMO",
+    team_section2_desc: "Having graduated from the University of Leeds with a Master degree in Finance, Alex has a military background as an Officer in the Royal Air Force and has a decade of experience in Financial Services. Alex started his career at BNY Mellon in Equity Derivatives. He has worked closely with senior executives at the largest corporate institutions. Alex now works at PwC in Assurance working with Large Cap Financial Services clients. Alex has a range of expertise and insights into Global Capital Markets, innovation and strategy and business development. He is responsible for the global business and strategic layout of Themis.",
+
+    team_section3_name: "Ennan Zhai",
+    team_section3_place: "R&D Director",
+    team_section3_desc: "Yale University Ph.D., postdoctoral, Yale University associate professor. His research areas include reputation systems and large-scale distributed systems. The research focuses on building secure and reliable computer systems using technologies in distributed systems, programming languages and cryptography.He is responsible for the cryptographic algorithms and the development of reputation system of Themis.",
+
+    team_section4_name: "Yuet Ning Chau",
+    team_section4_place: "Financial Controller",
+    team_section4_desc: "Yuet graduated from London School of Economics and Political Science with Master’s degree in business. He is enthusiastic about disruptive Fin-tech，he got deeply involved in cryptocurrency researches and he has provided consulting services for many blockchain projects. He is co-founder of China-UK Blockchain Association and he keeps close touch with UK’s leading Fin-tech entrepreneurs. Former member of PwC UK banking and capital market team, and possesses concrete knowledge and experience in traditional financial services, including due diligence and merger acquisition. He is responsible for the budget system establishment and financial index analysis of Themis.",
+
+    team_section5_name: "Wei Xin",
+    team_section5_place: "Security Consultant",
+    team_section5_desc:"Wei Xin, PhD of Science from Beijing University, Senior Engineer of China Information Technology Security Evaluation Center. Focus on security loophole detecting and cryptographic secure analyzing, he has rich experience in automatic loophole detection. He is responsible for the security loophole detection of Themis and smart contract. He is responsible for the security loophole detection of Themis and smart contracts.",
+
+    team_section6_name: "Takuya Koide",
+    team_section6_place: "Market Manager",
+    team_section6_desc:"Takuya studies at Royal Holloway, University of London, and then he worked at Unicoin as an Administrator. He has rich experience in the areas of marketing, program development, and data analysis. He has skills in SEO, content marketing, programme testing and mathematical modeling, and he has been involved in several blockchain projects. Takuya is a compound talent in Fintech and blockchain related areas. He is responsible for the market promotion and brand building of Themis.",
+
+    team_section7_name: "Amir Marat",
+    team_section7_place: "Operation Manager",
+    team_section7_desc:"Amir studies in Royal Holloway University of London and was involved in the cryptocurrency space for years. He has a deep understanding of crypto and decentralized systems and he is active in many open communities. He also has rich experience in market research and business development. He continuously develops communication skills and can speak 3 languages (Russian, English and Kazakh) and he is currently learning Chinese. He is responsible for the community and content operation of Themis.",
+
+    team_section8_name: "James Johnson",
+    team_section8_place: "Product Manager",
+    team_section8_desc:"Studying BSc Computer Science at Royal Holloway, University of London, James is also the Co-founder and Co-president of the App Society, as well as Chief Technology Officer and Co-founder of UNIcoin Private Limited Company, furthermore also having experience as a Freelance Web Developer and Systems Administrator. He has prior experience working in Cisco Systems, inc. as a Technical Sales Engineer in providing business insights and product proposition suggestions to Account Managers. He is responsible for the product design and requirement analysis of Themis",
+
+    team_section9_name: "Evan Bian",
+    team_section9_place: "Project Manager",
+    team_section9_desc:"Graduated from Harbin Institute of Technology majoring in electronic information engineering; Senior IT Systems Engineer; Senior Telecommunications Engineer. He worked at Ericsson Operations Support Department and is responsible for network management systems for several telecommunication operators worldwide. Later, he took part in the blockchain industry, and involved in a number of alliance chain product planning work. He has rich experience in telecommunication system design, solution formation, operational index analysis. He is responsible for the project implementation and quality control of Themis.",
+
+    team_section10_name: "Hubertas Trinkunas",
+    team_section10_place: "Business Manager",
+    team_section10_desc:"Hubertas Trinkunas is a multi-lingual communicator. Currently in his final year obtaining Management with Finance Bachelor’s degree at Royal Holloway University of London. Vice-president of Investment and Finance Society at Royal Holloway, Finance Manager of App Society at Royal Holloway, and currently upholding a role of Finance Director at UNIcoin, a tech start-up for student sharing economy including blockchain technology and cryptocurrency. Hubertas will be starting his Master’s at Kings College London, to obtain further knowledge and experience in Finance. He is responsible for the business development of Themis.",
+
+    team_section11_name: "Emma Zhu",
+    team_section11_place: "Risk Manager",
+    team_section11_desc:"Master of Enterprise Risk Management from Johns Hopkins University; She participated in the case analysis several times and came up with the commercialization plan for a University owned patent during her school years. She has rich experience in analyzing and consulting. She now serves as Senior Blockchain Analyst. She participated in multiple program development of alliance chain product, and has experience for designing financial product. She is responsible for the risk control and process optimization of Themis product.",
+
+    // team_section1_desc: "Danish is a senior expert in UCL Centre for Blockchain Technologies (CBT), he is one of the first developers writing smart tokens in Solidity compliant with ERC223 protocol. He promoted an online Big Data retrieval and storage service using Hadoop and Weka. He once worked in Atos for frontier researching projects. And he led a team working on a system which uses Facial Recognition as an authentication for turnstiles to enhance security and ease entry/exit at UCLU TechSoc.",
+    // team_section2_desc: "Jennifer is the CMO at Agility Sciences Limited and Co-founder of China-UK Blockchain Association. She holds a business degree from London Business School and has devoted herself to the potential industry revolution brought by distributed leger technology since graduated. She has experiences with The Boston Consulting Group, private equity and venture capital funds.",
+    // team_section3_desc: "Takuya graduated from Royal Holloway, University of London ，and now he is working at Unicoin as a growth hacker. He has rich experience in the areas of marketing, program developing, and data analysis. He has skills of SEM, content marketing, programme testing and mathematical modeling, and he has involved in several blockchain projects. Takuya is a compound talent in Fintech and blockchain related areas.",
+    // team_section4_desc: "Yuet graduated from London School of Economics and Political Science with Master’s degree in business. He is enthusiastic about disruptive Fin-tech，he got deeply involved in cryptocurrency researches and he has provided consulting services for many blockchain projects. He is co-founder of China-UK Blockchain Association and he keeps close touch with UK’s leading Fin-tech entrepreneurs. Former member of PwC UK banking and capital market team, and possesses concrete knowledge and experience in traditional financial services, including due diligence and merger acquisition.",
+    // team_section5_desc: "Amir graduated from Royal Holloway University of London and was involved in the cryptocurrencies for years. He has a deep understanding of crypto space and decentralized systems and he is active in many open communities. He also has rich experience in market researching and business development. He continuously develops communication skills and can speak 3 languages (Russian, English and Kazakh) and he is currently learning Chinese.",
+    // team_section6_desc: "Studying BSc Computer Science at Royal Holloway, University of London, James is also the Co-founder and Co-president of the App Society, as well as Chief Technology Officer and Co-founder of UNIcoin Private Limited Company, furthermore also having experience as a Freelance Web Developer and Systems Administrator. He has prior experience working in Cisco Systems, inc. as a Technical Sales Engineer in providing business insights and product proposition suggestions to Account Managers.",
+    // team_section7_desc: "Hubertas Trinkunas is a multi-lingual communicator. Currently in his final year obtaining Management with Finance Bachelor’s degree at Royal Holloway University of London. Vice-president of Investment and Finance Society at Royal Holloway, Finance Manager of App Society at Royal Holloway, and currently upholding a role of Finance Director at UNIcoin, a tech start-up for student sharing economy including blockchain technology and cryptocurrency.",
+    // team_section8_desc: "Graduated from Harbin Institute of Technology majoring in electronic information engineering; Senior IT Systems Engineer; Senior Telecommunications Engineer. He worked at Ericsson Operations Support Department and is responsible for network management systems for several telecommunication operators worldwide. Later, he took part in the blockchain industry, and involved in a number of alliance chain product planning work. He has rich experience in telecommunication system design, solution formation, operational index analysis.",
+    // team_section9_desc: "Yale University Ph.D., postdoctoral, Yale University associate professor. His research areas include reputation systems and large-scale distributed systems. The research focuses on building secure and reliable computer systems using technologies in distributed systems, programming languages and cryptography.",
+    // team_section10_desc: "PhD of Science from Peking University, Senior Engineer of China Information Technology Security Evaluation Center. Focus on security loophole detecting and cryptographic secure analyzing, he has rich experience in automatic loophole detection. He is responsible for the security loophole detection of Themis and smart contract.",
+    // team_section11_desc: "Master of Enterprise Risk Management from Johns Hopkins University; She participated in the case analysis several times and came up with the commercialization plan for a University owned patent during her school years. She has rich experience in analyzing and consulting. She now serves as Senior Blockchain Analyst. She participated in multiple program development of alliance chain product, and has experience for designing financial product.",
+    // team_section12_desc: "PhD of computer science from Peking University, senior engineer. He has long been engaged in the information system architecture design of smart city, with plenty system development and management experience. As an expert in future Internet architecture and cryptography, he also has a deep understanding of blockchain structure, consensus algorithms, and smart contracts.",
 
     //THEMIS顾问团队
     ourteam_title: "Advisors",
@@ -125,9 +175,24 @@ const EN = {
     ourteam_section4_desc: "Professor, Peking University,Prof. Chen is the former Head of Software and Microelectronics Department, Peking University (2002-2010), Head of PAFIRC, Head of Information Security Lab of Peking University. Executive Director of CCF, Deputy Head of ISCCF, Commissioner of CCF TCCOMM.",
     ourteam_section5_name: "Yu Shui",
     ourteam_section5_desc:"Co-founder of digital wallet Kcash,Angel investor and consultant for Blockchain project.Former He Jun Consulting partner, and founding partner of Beijing Hui Yuan Consulting.7 years consulting management experience, provided strategic planning, business model design, organizational change and other services for a number of A-share listed companies.",
-
+    ourteam_section6_name: "Gong Hui",
+    ourteam_section6_desc:"Ph.D. in Financial Mathematics at University College London; Researcher of Blockchain Research Centre at University College London; Secretary-General of China-UK Blockchain Association. His research projects include the digital identity program initiated by United Nations Food Agency and ICO supervision and challenges. He has rich experience in financial product design for cryptocurrency.",
+    ourteam_section7_name: "Guan Zhi",
+    ourteam_section7_desc:"PhD of Science, Associate Research Fellow of Peking University, expert in cryptography and security protocols, the main developer and community leader of GmSSL ( a famous open source program), and he cultivated the first three Masters (major in blockchain) of Peking University.",
+    ourteam_section8_name: "Xin Wei",
+    ourteam_section8_desc:"PhD of Science from Peking University, Senior Engineer of China Information Technology Security Evaluation Center. Focus on security loophole detecting and cryptographic secure analyzing, he has rich experience in automatic loophole detection. He is responsible for the security loophole detection of Themis and smart contract.",
+    ourteam_section9_name: "Sun Zhiyong",
+    ourteam_section9_desc:"Bachelor of Physics from Peking University. Master of Finance from Peking University. Now, he serves as the deputy director general of China State-owned Industry Innovation, the chairman of Jin Feng Capital, the CEO and co-founder of Wo Yi Obstetrics Group，Vice-president of Beijing ShenKong Science Co. Ltd, and the managing partner of Future Ventures International U.S., Inc.",
+    ourteam_section10_name: "Tang Cong",
+    ourteam_section10_desc:"PhD of computer science from Peking University, visiting scholar at New York University, previous product director of VRV, expert in blockchain, distributed ledger, network and information security. Tang has rich experience in blockchain structure designing and system developing, and led many blockchain based products and applications.",
+    ourteam_section11_name: "Han Kao",
+    ourteam_section11_desc:"Grew up in New York City and graduated from Columbia University with a B.A. in Economics. Han is CEO / Founder of independent ICO review and crypto media company Cryptobriefing.com. He is a serial entrepreneur who has founded and exited several companies in tech and media over the past 15 years. He is also an early stage investor and advisor in various blockchain based companies including Wanchain and Jet8.",
     // ourteam_section5_name: "Jack Lv",
     // ourteam_section5_desc:"Co-Founder, Factom.Founder, Wanchain.Founder, WangluTech,Jack is and experienced entrepreneur and expert in blockchain industry, he is the founder of Wanchain. Obtained his degrees in Peking University and Ohio State University, and he had rich business experience in China, America, and Europe in his early years. Entered into blockchain area since 2012, and then co-founded a famous program called Factom, and was known by pubic since he was reported in the cover report “trusted machine” by “The Economist”. He founded Wanglutech in 2016 and focused on driving the technology of blockchain into a wider applicable range.",
+    ourteam_section12_name:"Danish A. Alvi",
+    ourteam_section12_desc:"Danish is a senior expert in UCL Centre for Blockchain Technologies (CBT), he wrote smart tokens in Solidity compliant with ERC223 protocol for Overledger project ICO. He promoted an online Big Data retrieval and storage service using Hadoop and Weka, and assisting with Virtual Machine Automatic Provisioning for development environments, CKAN/Drupal Integration for front-end services, and Data Audit. He once worked in Atos(an information tech service company) for frontier researching projects. And he coordinated a team working on a system which uses Facial Recognition (using OpenCV Libraries) as an authentication for turnstiles to enhance security and ease entry/exit at UCL TechSoc.",
+    ourteam_section13_name:"Genevieve Leveille",
+    ourteam_section13_desc:"Genevieve is Founder of 0TenTic8, a FinTech venture aiming to empower agricultural producers by democratizing their access to financial services and improving the transparency of the supply chain. Genevieve serves as the vice-chair for the techUK Distributed Ledger Technologies (DLT) Working Group. The DLT Working Group will provide strategic direction for all techUK activities related to blockchain and DLT.",
 
 
     //THEMIS合作伙伴
@@ -199,5 +264,23 @@ const EN = {
     digital_currency1_content:"As cryptocurrencies continue to flourish, the scope of application is expanding as many countries are adopting cryptocurrencies as a method of payment. ",
     digital_currency2_content:"The OTC-trading and online-shopping of cryptocurrencies is facing an issue in fair exchange: Do payments or shipments come first? The payment and delivery cannot be reached simultaneously, and escrow services are a requisite to securing capitals.",
     digital_currency3_content:"Relying on a single Trusted Third-Party is generally considered as a security risk. For instance, a famous coin exchange Mt.Gox suffered a loss of 460 million US dollars in Bitcoin as a result of hacker attacks.",
+
+
+    //基石
+    cornerstone_title: "Cornerstone Investors ",
+    cornerstone_section1_p:"Fenbushi is China’s first and largest venture capital fund focused on blockchain enabled ventures",
+    cornerstone_section1_name: "Shen Bo",
+    cornerstone_section1_desc1: "Founding Partner",
+    cornerstone_section1_desc2:"Fenbushi Capital",
+    cornerstone_section1_desc3:"Blockasset Fund",
+
+    // 代币分配
+    distribution_title: "Distribution Plan",
+    distribution_name1: "Distribution of tokens",
+    distribution_img1: "/public/img/distribution_2.1.png",
+    distribution_name2: "Allocation of funds",
+    distribution_img2: "/public/img/distribution_2.2.png",
+    distribution_footer: "Toal Supply: 1billion",
+
 };
 window.EN = EN;

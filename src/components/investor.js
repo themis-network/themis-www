@@ -11,7 +11,7 @@ class Investor extends Component{
     }
     render(){
         return(
-            <section className="investor g-pt-100 g-pb-100" style={{"background":"#f5f5f5"}}>
+            <section className="investor g-pt-100 g-pb-100" style={{"background":"#fff"}}>
                 <div className="container text-center g-max-width-75" style={{textAlign:'center'}}>
                     <h2 className="g-font-weight-400 nl-home-title g-font-size-24">{getLocalValue("investor_title")}</h2>
                     <div className="nl-underline g-mb-15">
@@ -21,21 +21,24 @@ class Investor extends Component{
                 </div>
                 <div className="container">
                     <div className="row">
-                        <div className=" col-sm-12 col-lg-3 g-py-20 text-center">
-                            <img style={{margin:"0 auto"}} src={`${ROOT_URL}/public/img/investor1.png`} alt="1"/>
+                        {/*<div className=" col-sm-12 col-lg-4 g-py-20 text-center">*/}
+                            {/*<img style={{margin:"0 auto"}} src={`${ROOT_URL}/public/img/investor91.png`} alt="1"/>*/}
+                        {/*</div>*/}
+                        <div className="col-sm-12 col-lg-4 g-py-20 text-center">
+                            <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/investor92.png`} alt="2"/>
                         </div>
-                        <div className="col-sm-12 col-lg-3 g-py-20 text-center">
-                            <img style={{margin:"auto", "height":"45px"}} src={`${ROOT_URL}/public/img/investor2.png`} alt="2"/>
-                        </div>
-                        <div className="ol-sm-12 col-lg-3 g-py-20 text-center">
+                        <div className="ol-sm-12 col-lg-4 g-py-20 text-center" style={{margin:"auto"}}>
                             <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/investor3_1.png`} alt="3"/>
                         </div>
-                        <div className="ol-sm-12 col-lg-3 g-py-20 text-center">
-                            <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/investor4.png`} alt="3"/>
+                        <div className="ol-sm-12 col-lg-4 g-py-20 text-center">
+                            <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/investor94.png`} alt="4"/>
                         </div>
-                        <div className="ol-sm-12 col-lg-3 g-py-20 text-center">
-                            <img style={{margin:"auto", "height":"45px"}} src={`${ROOT_URL}/public/img/investor5.png`} alt="3"/>
+                        <div className="ol-sm-12 col-lg-4 g-py-20 text-center">
+                            <img style={{margin:"auto", height:"115px"}} src={`${ROOT_URL}/public/img/investor95.png`} alt="5"/>
                         </div>
+                        {/*<div className="ol-sm-12 col-lg-4 g-py-20 text-center">*/}
+                            {/*<img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/investor96.png`} alt="6"/>*/}
+                        {/*</div>*/}
                     </div>
                 </div>
             </section>

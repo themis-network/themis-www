@@ -35,7 +35,7 @@ class Partner extends Component{
     }
     renderrow(src,index){
         return(
-            <div className="col-sm-12 col-lg-3 g-py-20 text-center" key={index}>
+            <div className="col-sm-12 col-lg-4 g-py-20 text-center" key={index}>
                 <img style={{margin:"0 auto","height":"45px"}} src={src.src} alt={index}/>
             </div>
         )
@@ -54,13 +54,16 @@ class Partner extends Component{
                 src: `${ROOT_URL}public/img/investor2.png`
             },
             {
-                src: `${ROOT_URL}public/img/investor3_1.png`
+                src: `${ROOT_URL}public/img/investor3.png`
             },
             {
                 src: `${ROOT_URL}public/img/investor4.png`
             },
             {
                 src: `${ROOT_URL}public/img/investor5.png`
+            },
+            {
+                src: `${ROOT_URL}public/img/investor6.png`
             }
         ];
         return(
@@ -86,7 +89,7 @@ class Partner extends Component{
                     <div className="row g-pb-60">
                         {imgLinks.map(this.renderrow)}
                         <div className="col-sm-12 col-lg-3 g-py-20 text-center">
-                            <img style={{margin:"0 auto","height":"45px",width:"175px"}} src={`${ROOT_URL}/public/img/investor6.png`} alt="6"/>
+                            {/*<img style={{margin:"0 auto","height":"45px",width:"175px"}} src={`${ROOT_URL}/public/img/investor6.png`} alt="6"/>*/}
                         </div>
                     </div>
                 </div>

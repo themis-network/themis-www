@@ -13,6 +13,9 @@ import ProjectDescription from './project_description';
 import Consultant from './consultant'
 import Mission from './mission'
 import DigitalCurrency from './digital_currency'
+import Cornerstone from "./cornerstone";
+
+import Distribution from "./distribution"
 
 class Home extends Component{
     componentDidMount() {
@@ -29,9 +32,11 @@ class Home extends Component{
                 <Partner/>
                 {/*<Advantage/>*/}
                 <Circuit/>
+                <Cornerstone/>
                 <Investor/>
                 {/*<ProjectDescription/>*/}
                 <News/>
+                <Distribution/>
                 <Ourteams/>
                 <Consultant/>
             </section>

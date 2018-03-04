@@ -2,9 +2,7 @@
 import React,{ Component }from 'react';
 import {connect} from 'react-redux';
 import {getLocalValue} from './common/language';
-
 class Circuit extends Component{
-
     renderrow(src,index){
         return (
             <li className="col-md-12 g-mb-50" key={index}>
@@ -24,15 +22,14 @@ class Circuit extends Component{
             </li>
         )
     }
-
     render(){
         const Links = [
-            {time: '2016.12',info:`${getLocalValue("ciruit_route1")}`},
-            {time: '2017.08',info:`${getLocalValue("ciruit_route2")}`},
-            {time: '2017.12',info:`${getLocalValue("ciruit_route3")}`},
+            {time: '2017.06',info:`${getLocalValue("ciruit_route1")}`},
+            {time: '2017.12',info:`${getLocalValue("ciruit_route2")}`},
+            {time: '2018.03',info:`${getLocalValue("ciruit_route3")}`},
             {time: '2018.06',info:`${getLocalValue("ciruit_route4")}`},
-            {time: '2018.12',info:`${getLocalValue("ciruit_route5")}`},
-        ]
+            {time: '2018.10',info:`${getLocalValue("ciruit_route5")}`},
+        ];
         return(
             <section id="circuit" className="g-py-50">
                 <div className="container text-center g-max-width-75 " style={{textAlign:'center'}}>

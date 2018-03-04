@@ -5,7 +5,7 @@ class News extends Component{
 
     render(){
         return(
-            <section id="news" className="g-pt-20 g-pb-100" style={{backgroundColor:"#fff"}}>
+            <section id="news" className="g-pt-20 g-pb-100" style={{backgroundColor:"#f5f5f5"}}>
                 <div className="container text-center g-pt-40 " style={{textAlign:'center'}}>
                     <h2 className="g-font-weight-400 nl-home-title g-font-size-24 ">{getLocalValue("news_title")}</h2>
                     <div className="nl-underline g-mb-25">
