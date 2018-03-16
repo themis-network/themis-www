@@ -36,6 +36,9 @@ class Investor extends Component{
                         <div className="ol-sm-12 col-lg-4 g-py-20 text-center">
                             <img style={{margin:"auto", height:"115px"}} src={`${ROOT_URL}/public/img/investor95.png`} alt="5"/>
                         </div>
+                        <div className="ol-sm-12 col-lg-4 g-py-20 text-center">
+                            <img style={{margin:"auto", height:"65px", paddingTop:"20px"}} src={`${ROOT_URL}/public/img/investor97.jpg`} alt="7"/>
+                        </div>
                         {/*<div className="ol-sm-12 col-lg-4 g-py-20 text-center">*/}
                             {/*<img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/investor96.png`} alt="6"/>*/}
                         {/*</div>*/}

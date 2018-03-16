@@ -33,6 +33,11 @@ class Consultant extends Component{
             {src:`${ROOT_URL}public/img/tangcong.jpg`,name:`${getLocalValue("ourteam_section10_name")}`,info:`${getLocalValue("ourteam_section10_desc")}`},
             // {src:`${ROOT_URL}public/img/Danish A.Alvi.png`,name:`${getLocalValue("ourteam_section12_name")}`,info:`${getLocalValue("ourteam_section12_desc")}`},
             {src:`${ROOT_URL}public/img/Genevieve Leveille.png`,name:`${getLocalValue("ourteam_section13_name")}`,info:`${getLocalValue("ourteam_section13_desc")}`},
+            {src:`${ROOT_URL}public/img/Marina Khawaja.png`,name:`${getLocalValue("ourteam_section14_name")}`,info:`${getLocalValue("ourteam_section14_desc")}`},
+
+            {src:`${getLocalValue("ourteam_section15_pic")}`,name:`${getLocalValue("ourteam_section15_name")}`,info:`${getLocalValue("ourteam_section15_desc")}`},
+            {src:`${getLocalValue("ourteam_section16_pic")}`,name:`${getLocalValue("ourteam_section16_name")}`,info:`${getLocalValue("ourteam_section16_desc")}`},
+            {src:`${getLocalValue("ourteam_section17_pic")}`,name:`${getLocalValue("ourteam_section17_name")}`,info:`${getLocalValue("ourteam_section17_desc")}`},
         ];
         return(
             <section className="g-py-50 g-pb-100">

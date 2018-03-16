@@ -50,68 +50,43 @@ class Ourteams extends Component {
                 linkedin:"https://www.linkedin.com/in/alexkhawaja/"
             },
             {
-                src: `${ROOT_URL}public/img/Ennan Zhai.png`,
+                src: `${ROOT_URL}public/img/EvanBian.jpg`,
                 name: `${getLocalValue("team_section3_name")}`,
                 p: `${getLocalValue("team_section3_place")}`,
                 info: `${getLocalValue("team_section3_desc")}`,
-                linkedin:"https://www.linkedin.com/in/ennan-zhai-26818b17/"
+                linkedin:"http://www.linkedin.com/in/%E4%B8%80%E5%A4%AB-%E8%BE%B9-2073b9155/"
+
             },
             {
-                src: `${ROOT_URL}public/img/Yuet Ning Chau.png`,
+                src: `${ROOT_URL}public/img/Ennan Zhai.png`,
                 name: `${getLocalValue("team_section4_name")}`,
                 p: `${getLocalValue("team_section4_place")}`,
                 info: `${getLocalValue("team_section4_desc")}`,
-                linkedin:"https://www.linkedin.com/in/yuet-ning-chau"
+                linkedin:"https://www.linkedin.com/in/ennan-zhai-26818b17/"
+
             },
             {
-                src: `${ROOT_URL}public/img/Wei Xin.jpg`,
+                src: `${ROOT_URL}public/img/Yuet Ning Chau.png`,
                 name: `${getLocalValue("team_section5_name")}`,
                 p: `${getLocalValue("team_section5_place")}`,
                 info: `${getLocalValue("team_section5_desc")}`,
-                linkedin:"javascript:(0);"
+                linkedin:"https://www.linkedin.com/in/yuet-ning-chau"
+
             },
             {
-                src: `${ROOT_URL}public/img/Takuya Koide.jpg`,
+                src: `${ROOT_URL}public/img/Wei Xin.jpg`,
                 name: `${getLocalValue("team_section6_name")}`,
                 p: `${getLocalValue("team_section6_place")}`,
                 info: `${getLocalValue("team_section6_desc")}`,
-                linkedin:"https://uk.linkedin.com/in/takuya-koide-24b3a8124"
-            },
-            {
-                src: `${ROOT_URL}public/img/Amir Marat.png`,
-                name: `${getLocalValue("team_section7_name")}`,
-                p: `${getLocalValue("team_section7_place")}`,
-                info: `${getLocalValue("team_section7_desc")}`,
-                linkedin:"https://www.linkedin.com/in/amirmarat/"
-            },
-            {
-                src: `${ROOT_URL}public/img/James Johnson.jpg`,
-                name: `${getLocalValue("team_section8_name")}`,
-                p: `${getLocalValue("team_section8_place")}`,
-                info: `${getLocalValue("team_section8_desc")}`,
-                linkedin:"https://www.linkedin.com/in/jameshenryjohnson/"
-            },
-            {
-                src: `${ROOT_URL}public/img/EvanBian.jpg`,
-                name: `${getLocalValue("team_section9_name")}`,
-                p: `${getLocalValue("team_section9_place")}`,
-                info: `${getLocalValue("team_section9_desc")}`,
-                linkedin:"http://www.linkedin.com/in/%E4%B8%80%E5%A4%AB-%E8%BE%B9-2073b9155/"
-            },
-            {
-                src: `${ROOT_URL}public/img/Hubertas Trinkunas.jpg`,
-                name: `${getLocalValue("team_section10_name")}`,
-                p: `${getLocalValue("team_section10_place")}`,
-                info: `${getLocalValue("team_section10_desc")}`,
-                linkedin:"https://www.linkedin.com/in/hubertas-trinkunas-119898128/"
+                linkedin:"https://www.linkedin.com/in/wei-xin-3a894324/"
             },
             {
                 src: `${ROOT_URL}public/img/emmazhu.jpg`,
-                name: `${getLocalValue("team_section11_name")}`,
-                p: `${getLocalValue("team_section11_place")}`,
-                info: `${getLocalValue("team_section11_desc")}`,
+                name: `${getLocalValue("team_section7_name")}`,
+                p: `${getLocalValue("team_section7_place")}`,
+                info: `${getLocalValue("team_section7_desc")}`,
                 linkedin:"http://www.linkedin.com/in/emma-zhu-034b12159/"
-            },
+            }
             // {
             //     src: `${ROOT_URL}public/img/menghongwei.jpg`,
             //     name: 'Meng Hongwei',
