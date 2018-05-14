@@ -22,7 +22,7 @@ module.exports = {
     entry: {
         'vendor': static,
         "bundle": "./src/index.js",
-        "main": "./public/js/main.js",
+        // "main": "./public/js/main.js",
     },
     output: {
         path: path.resolve(__dirname, "./dist"),
