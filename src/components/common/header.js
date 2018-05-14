@@ -60,11 +60,11 @@ class Header extends Component{
                                             {/*{getLocalValue("nav_language")}*/}
                                         {/*</a>*/}
                                     {/*</li>*/}
-                                    <li className="nav-item g-ml-25--lg g-mr-0--lg">
-                                        <a href={getLocalValue("nav_whitepaper_url")} target="_blank" className="nav-link nl-nav-link g-px-0 btn btn-md u-btn-primary nav-download"  style={{marginTop: '-3px'}}>
-                                        {getLocalValue("nav_Whitepaper")}
-                                        </a>
-                                    </li>
+                                    {/*<li className="nav-item g-ml-25--lg g-mr-0--lg">*/}
+                                        {/*<a href={getLocalValue("nav_whitepaper_url")} target="_blank" className="nav-link nl-nav-link g-px-0 btn btn-md u-btn-primary nav-download"  style={{marginTop: '-3px'}}>*/}
+                                        {/*{getLocalValue("nav_Whitepaper")}*/}
+                                        {/*</a>*/}
+                                    {/*</li>*/}
 
                                 </ul>
                             </div>

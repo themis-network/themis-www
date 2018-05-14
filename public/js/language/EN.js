@@ -12,6 +12,20 @@ const EN = {
     nav_github_url: "https://github.com/themis-network",
     law_to_lang: "?lang=EN",
 
+    banner_btn2_title:'Telegram',
+    banner_btn2_item1:'Official Telegram EN ',
+    banner_btn2_item2:'Official Telegram CN',
+    banner_btn2_item3:'Official Announcements',
+    banner_btn2_item1_url:'https://t.me/joinchat/HxLp5UmnNc3OI_txB26tAA',
+    banner_btn2_item2_url:"https://t.me/themisCN",
+    banner_btn2_item3_url:'https://t.me/ThemisNetworkANN',
+
+    //公告部分
+        banner_notice: "Themis is listed on Hadax",
+        notice_title: "Themis is listed on Hadax",
+        notice_one: "We're thrilled to announce that we are officially listed on Hadax, a brand of @Huobi_Pro , China's biggest exchange. Stay tuned for some AMAZING announcements in the coming days!",
+        notice_author: "Themis Team",
+        notice_time: "2018.05.10",
     // banner 部分
     about_title: "Themis: The Decentralized ",
     about_title2: '"Alipay"',
@@ -195,7 +209,11 @@ const EN = {
 
     //footer部分
     footer_title1:"Official Wechat",
+
     footer_title2:"Legal Terms and Conditions",
+    footer_title3:'Official Telegram EN',
+    footer_title4:'Official Announcements',
+    footer_title5:"Official Telegram CN",
 
     //法律结构
     law_structure_title1:"Legal Structure of Themis",
@@ -275,7 +293,8 @@ const EN = {
     distribution_img1: "/public/img/distribution_2.1.png",
     distribution_name2: "Allocation of funds",
     distribution_img2: "/public/img/distribution_2.2.png",
-    distribution_footer: "Toal Supply: 1billion",
-
+    // distribution_footer: "Toal Supply: 1billion",
+    distribution_footer1: "Toal Supply: 1billion",
+    distribution_footer2: "Price: 1 ETH=15000 GET",
 };
 window.EN = EN;

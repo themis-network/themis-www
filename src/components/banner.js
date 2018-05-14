@@ -1,4 +1,6 @@
 import React,{ Component }from 'react';
+import {Modal} from 'antd';
+import 'antd/dist/antd.css';
 import {ROOT_URL} from '../actions/types';
 import {getLocalValue} from './common/language';
 
@@ -6,16 +8,35 @@ class Banner extends Component{
     constructor(props) {
         super(props);
 
-        this.state = {current: '', show: false};
+        // this.state = {current: '', show: false};
+        this.state = {current: '', show1: false, show2: false, visible: false};
+        this.handleChange1=this.handleChange1.bind(this);
+        this.handleChange2=this.handleChange2.bind(this);
     }
-    handleChange(){
+    handleChange2(){
         this.setState({
-            show:!this.state.show
+            show2:!this.state.show2
         })
     }
+    handleChange1(){
+        this.setState({
+            show1:!this.state.show1
+        })
+    }
+    showModal(){
+         this.setState({
+                 visible: true,
+         });
+     }
+        handleCancel(){
+               this.setState({
+                       visible: false,
+               });
+            }
+
+
     componentDidMount() {
         const $ = window.$;
-
         let revapi1014 = $("#rev_slider_1014_1").show().revolution({
             sliderType: "standard",
             jsFileLocation: "revolution/js/",
@@ -87,7 +108,36 @@ class Banner extends Component{
     render(){
         return(
             <div>
-                <div className="g-overflow-hidden banner">
+                {/*<div className="g-overflow-hidden banner">*/}
+                <div className="banner-notice" id="bannerNotice">
+                    <a  id="bannerNoticeBtn" onClick={this.showModal.bind(this)}>{getLocalValue("banner_notice")}</a>
+                </div>
+                <Modal
+                    title={null}
+                    visible={this.state.visible}
+                    onCancel={this.handleCancel.bind(this)}
+                    width="60%"
+                    footer={null}
+                >
+                    <div style={{widht: "100%", height: "100%", padding: "30px", fontSize: "16px"}}>
+                        <p style={{
+                            width: "100%",
+                            textAlign: "center",
+                            color: "black",
+                            fontSize: "30px",
+                            fontWeight: "bold",
+                            lineHeight: "40px",
+                            marginTop: "10px"
+                        }}>
+                            {getLocalValue("notice_title")}
+                        </p>
+                        <p className="notice_content">{getLocalValue("notice_one")}</p>
+                        <p><a href="https://www.hadax.com/notice_detail/?id=1497">https://www.hadax.com/notice_detail/?id=1497</a></p>
+                        <p>{getLocalValue("notice_author")}</p>
+                        <p>{getLocalValue("notice_time")}</p>
+                    </div>
+                </Modal>
+                <div className="banner">
                     <div id="rev_slider_1014_1_wrapper" className="rev_slider_wrapper fullscreen-container" data-alias="typewriter-effect" data-source="gallery" style={{backgroundColor:'transparent',padding:'0px'}}>
                         <div id="rev_slider_1014_1" className="rev_slider fullscreenbanner"  data-version="5.4.1">
                             <ul>
@@ -237,32 +287,29 @@ class Banner extends Component{
                                     </div>
 
 
-                                    {/*<div className="banner-btn tp-caption rev-btn  tp-resizeme rs-parallaxlevel-4"*/}
-                                    {/*id="slide-2800-layer-4"*/}
-                                    {/*data-x="['right','right','center','center']" data-hoffset="['630','525','-105','100']"*/}
-                                    {/*data-y="['middle','middle','middle','middle']" data-voffset="['240','240','240','240']"*/}
-                                    {/*data-width="none"*/}
-                                    {/*data-height="none"*/}
-                                    {/*data-whitespace="nowrap"*/}
-                                    {/*data-lineheight="[40,40,60,60]"*/}
-                                    {/*data-type="button"*/}
-                                    {/*data-responsive_offset="on"*/}
+                                    <div className="select-design divfontcolor tp-caption  tp-resizeme rs-parallaxlevel-4" onClick={this.handleChange1}
+                                         href="#portfolio-section" target="_self" id="slide-2800-layer-4"
+                                         data-x="['right','right','center','center']" data-hoffset="['630','525','-180','100']"
+                                         data-y="['middle','middle','middle','middle']" data-voffset="['240','240','240','240']"
+                                         data-width="none"
+                                         data-height="none"
+                                         data-whitespace="nowrap"
 
-                                    {/*data-frames='[{"from":"x:-50px;opacity:0;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'*/}
-                                    {/*data-textAlign="['left','left','left','left']"*/}
-                                    {/*data-paddingtop="[0,0,0,0]"*/}
-                                    {/*data-paddingright="[50,50,50,50]"*/}
-                                    {/*data-paddingbottom="[0,0,0,0]"*/}
-                                    {/*data-paddingleft="[50,50,50,50]"*/}
-                                    {/*style={{zIndex: '9', whiteSpace: 'nowrap', fontSize: '15px', borderRadius:'5px',outline:'none',boxShadow:'1px 1px 1px yellow',boxSizing:'border-box',cursor:'pointer'}}> I C O*/}
-                                    {/*</div>*/}
-
-                                    <div className="select-design divfontcolor tp-caption  tp-resizeme rs-parallaxlevel-4" onClick={this.handleChange.bind(this)}
+                                         data-responsive_offset="on"
+                                         data-frames='[{"from":"x:-50px;opacity:0;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                                         data-textAlign="['left','left','left','left']"
+                                         data-paddingtop="[0,0,0,0]"
+                                         style={{zIndex: '9', whiteSpace: 'nowrap', fontSize: '15px',borderRadius:'5px',outline:'none',boxSizing:'border-box',cursor:'pointer'}}>
+                                        <span className="g-color-white">{getLocalValue("nav_Whitepaper")}<i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>
+                                        <span className={this.state.show1 ? "hover" : "hidden"}><a href={getLocalValue("nav_whitepaper_url")}>白皮书</a></span>
+                                        <span className={this.state.show1 ? "hover" : "hidden"}><a href={getLocalValue("nav_whitepaper_url2")}>WHITE PAPER</a></span>
+                                        <span className={this.state.show1 ? "hover" : "hidden"}><a href={getLocalValue("nav_whitepaper_url4")}>백서</a></span>
+                                    </div>
+                                    <div className="select-design divfontcolor tp-caption  tp-resizeme rs-parallaxlevel-4" onClick={this.handleChange2}
                                          href="#portfolio-section" target="_self" id="slide-2800-layer-5"
-                                         data-x="['left','left','center','center']"
-                                         // data-hoffset="['630','525','105','100']"
-                                         data-hoffset="['550','400','0','0']"
-                                         data-y="['middle','middle','middle','middle']" data-voffset="['200','200','200','200']"
+                                         data-x="['left','left','center','center']" data-hoffset="['630','525','180','100']"
+                                         data-y="['middle','middle','middle','middle']" data-voffset="['240','240','240','240']"
+
                                          data-width="none"
                                          data-height="none"
                                          data-whitespace="nowrap"
@@ -271,13 +318,11 @@ class Banner extends Component{
                                          data-frames='[{"from":"x:50px;opacity:0;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
                                          data-textAlign="['left','left','left','left']"
                                          data-paddingtop="[0,0,0,0]"
-                                         data-paddingbottom="[0,0,0,0]"
                                          style={{zIndex: '9', whiteSpace: 'nowrap', fontSize: '15px',borderRadius:'5px',outline:'none',boxSizing:'border-box',cursor:'pointer'}}>
-                                            <span className="g-color-white">{getLocalValue("nav_Whitepaper")}<i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>
-                                            <span className={this.state.show ? "hover" : "hidden"}><a href={getLocalValue("nav_whitepaper_url")}>白皮书</a></span>
-                                            <span className={this.state.show ? "hover" : "hidden"}><a href={getLocalValue("nav_whitepaper_url2")}>WHITE PAPER</a></span>
-                                            <span className={this.state.show ? "hover" : "hidden"}><a href={getLocalValue("nav_whitepaper_url3")}>白書</a></span>
-                                            <span className={this.state.show ? "hover" : "hidden"}><a href={getLocalValue("nav_whitepaper_url4")}>백서</a></span>
+                                        <span className="g-color-white">{getLocalValue("banner_btn2_title")}    <i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>
+                                        <span className={this.state.show2 ? "hover" : "hidden"}><a target="_blank" href={getLocalValue("banner_btn2_item1_url")}>{getLocalValue("banner_btn2_item1")}</a></span>
+                                        <span className={this.state.show2 ? "hover" : "hidden long"}><a target="_blank" href={getLocalValue("banner_btn2_item2_url")}>{getLocalValue("banner_btn2_item2")}</a></span>
+                                        <span className={this.state.show2 ? "hover long" : "hidden long"}><a target="_blank" href={getLocalValue("banner_btn2_item3_url")}>{getLocalValue("banner_btn2_item3")}</a></span>
                                     </div>
                                 </li>
                             </ul>

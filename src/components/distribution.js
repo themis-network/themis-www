@@ -28,7 +28,9 @@ class Distribution extends Component{
                             <div className={"col-sm-12 text-center"} style={{paddingTop:"100px"}}><img style={{width:"80%"}} src={getLocalValue("distribution_img2")} alt="1.2"/></div>
                         </div>
 
-                        <div className={"col-sm-12 text-center dis_color dis_weight" } style={{paddingTop:"30px"}}>{getLocalValue("distribution_footer")}</div>
+                        {/*<div className={"col-sm-12 text-center dis_color dis_weight" } style={{paddingTop:"30px"}}>{getLocalValue("distribution_footer")}</div>*/}
+                        <div className={"col-sm-12 text-center dis_color dis_weight" } style={{paddingTop:"30px"}}>{getLocalValue("distribution_footer1")}</div>
+                        <div className={"col-sm-12 text-center dis_color dis_weight" } >{getLocalValue("distribution_footer2")}</div>
                     </div>
                 </div>
             </section>
