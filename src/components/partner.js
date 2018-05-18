@@ -47,9 +47,9 @@ class Partner extends Component{
             {href:"http://oraclechain.io/",src:`${ROOT_URL}/public/img/partner3.png`,p:`${getLocalValue("cooperative_partner3_content")}`},
         ];
         const imgLinks = [
-            {
-                src: `${ROOT_URL}public/img/investor1.png`
-            },
+            // {
+            //     src: `${ROOT_URL}public/img/investor1.png`
+            // },
             {
                 src: `${ROOT_URL}public/img/investor2.png`
             },
