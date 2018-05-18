@@ -47,11 +47,11 @@
     background-color: black !important;
 }
 ::-moz-selection {
-    color: #fff;
+    color: #f0a401;
     background-color:#6c6c6c; }
 
 ::selection {
-    color: #fff;
+    color: #f0a401;
     background-color:#6c6c6c; }
 .nl_logo{
   margin-right: 1em;

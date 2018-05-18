@@ -58,13 +58,13 @@ h1, h2, h3, h4, h5, h6 {
 /*------------------------------------
   Highlight Color
 ------------------------------------*/
-::-moz-selection {
-  color: #fff;
-  background-color: #72c02c; }
+/*::-moz-selection {*/
+  /*color: #fff;*/
+  /*background-color: #72c02c; }*/
 
-::selection {
-  color: #fff;
-  background-color: #72c02c; }
+/*::selection {*/
+  /*color: #fff;*/
+  /*background-color: #72c02c; }*/
 
 .g-bg-primary ::-moz-selection {
   color: #72c02c;

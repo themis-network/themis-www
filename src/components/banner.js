@@ -158,9 +158,9 @@ class Banner extends Component{
                                          data-frames='[{"from":"opacity:0;","speed":500,"to":"o:1;","delay":0,"ease":"Power4.easeOut"},{"speed":5000,"to":"opacity:0;","ease":"Power4.easeInOut"}]'
                                          data-textAlign="['left','left','left','left']"
                                          data-paddingtop="[0,0,0,0]"
-                                         data-paddingright="[0,0,0,0]"
+                                         data-paddingright="[0,0,0,10]"
                                          data-paddingbottom="[0,0,0,0]"
-                                         data-paddingleft="[0,0,0,0]"
+                                         data-paddingleft="[0,0,0,10]"
 
                                          style={{zIndex: 5,backgroundColor:'rgba(0, 0, 0, 0.3)',borderColor:'rgba(0, 0, 0, 0)',borderWidth:'0px'}}></div>
 
@@ -175,6 +175,8 @@ class Banner extends Component{
                                          // data-fontsize="['37','34','34','34']"
                                         data-fontsize="['30','26','20','30']"
                                          data-whitespace="nowrap"
+                                         data-word-wrap="break-word"
+                                         data-word-break="break-all"
 
                                          data-type="text"
                                          data-responsive_offset="on"
@@ -200,6 +202,8 @@ class Banner extends Component{
                                          data-width="none"
                                          data-height="none"
                                          data-whitespace="nowrap"
+                                         data-word-wrap="break-word"
+                                         data-word-break="break-all"
                                          data-fontsize="['20','20','20','20']"
                                          data-type="text"
                                          data-responsive_offset="on"
@@ -211,7 +215,7 @@ class Banner extends Component{
                                          data-paddingbottom="[0,0,0,0]"
                                          data-paddingleft="[0,0,0,0]"
 
-                                         style={{zIndex: '8',whiteSpace: 'nowrap',fontWeight: '400',color: 'rgba(255, 255, 255, 1.00)',borderWidth:'0px'}}>
+                                         style={{zIndex: '8',whiteSpace: 'nowrap',fontWeight: '400',color: 'rgba(255, 255, 255, 1.00)',borderWidth:'0px',wordBreak:'break-all', wordWrap:'break-word'}}>
                                         {getLocalValue("about_know")}
                                     </div>
 
@@ -222,7 +226,8 @@ class Banner extends Component{
                                          data-width="100"
                                          data-height="2"
                                          data-whitespace="nowrap"
-
+                                         data-word-wrap="break-word"
+                                         data-word-break="break-all"
 
                                          data-type="shape"
                                          data-responsive_offset="on"
@@ -246,6 +251,8 @@ class Banner extends Component{
                                          data-width="none"
                                          data-height="none"
                                          data-whitespace="nowrap"
+                                         data-word-wrap="break-word"
+                                         data-word-break="break-all"
 
                                          data-type="text"
                                          data-responsive_offset="on"
@@ -269,6 +276,7 @@ class Banner extends Component{
                                          data-width="none"
                                          data-height="none"
                                          data-word-wrap="break-word"
+                                         data-word-break="break-all"
                                          data-fontsize="['16','16','14','14']"
                                          data-type="text"
                                          data-responsive_offset="on"
