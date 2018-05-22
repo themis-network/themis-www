@@ -65,14 +65,14 @@ class Ourteams extends Component {
                 linkedin:"https://www.linkedin.com/in/ennan-zhai-26818b17/"
 
             },
-            {
-                src: `${ROOT_URL}public/img/Yuet Ning Chau.png`,
-                name: `${getLocalValue("team_section5_name")}`,
-                p: `${getLocalValue("team_section5_place")}`,
-                info: `${getLocalValue("team_section5_desc")}`,
-                linkedin:"https://www.linkedin.com/in/yuet-ning-chau"
-
-            },
+            // {
+            //     src: `${ROOT_URL}public/img/Yuet Ning Chau.png`,
+            //     name: `${getLocalValue("team_section5_name")}`,
+            //     p: `${getLocalValue("team_section5_place")}`,
+            //     info: `${getLocalValue("team_section5_desc")}`,
+            //     linkedin:"https://www.linkedin.com/in/yuet-ning-chau"
+            //
+            // },
             {
                 src: `${ROOT_URL}public/img/Wei Xin.jpg`,
                 name: `${getLocalValue("team_section6_name")}`,
