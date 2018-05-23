@@ -7,7 +7,7 @@ const EN = {
     change_to_lang: "/?lang=CN",
     nav_whitepaper_url: "https://themis.network/public/Themis_Whitepaper_CN.pdf",
     nav_whitepaper_url2:"https://themis.network/public/Themis_Whitepaper_EN.pdf",
-    nav_whitepaper_url3:"https://themis.network/public/Themis_Whitepaper_JP.pdf",
+    // nav_whitepaper_url3:"https://themis.network/public/Themis_Whitepaper_JP.pdf",
     nav_whitepaper_url4:"https://themis.network/public/Themis_Whitepaper_KR.pdf",
     nav_github_url: "https://github.com/themis-network",
     law_to_lang: "?lang=EN",
