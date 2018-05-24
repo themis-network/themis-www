@@ -27,9 +27,9 @@ class Investor extends Component{
                         <div className="col-sm-12 col-lg-4 g-py-20 text-center">
                             <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/investor92.png`} alt="2"/>
                         </div>
-                        <div className="col-sm-12 col-lg-4 g-py-20 text-center" style={{margin:"auto"}}>
-                            <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/investor3_1.png`} alt="3"/>
-                        </div>
+                        {/*<div className="col-sm-12 col-lg-4 g-py-20 text-center" style={{margin:"auto"}}>*/}
+                            {/*<img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/investor3_1.png`} alt="3"/>*/}
+                        {/*</div>*/}
                         {/*<div className="col-sm-12 col-lg-4 g-py-20 text-center">*/}
                             {/*<img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/investor94.png`} alt="4"/>*/}
                         {/*</div>*/}
